@@ -997,7 +997,7 @@ PrefabInstance:
     - target: {fileID: 4484328032598877479, guid: 655db7c724606a94bbd02ee8732653e3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.14
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4484328032598877479, guid: 655db7c724606a94bbd02ee8732653e3,
         type: 3}
@@ -1346,6 +1346,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   countText: {fileID: 1355981124}
+  winText: {fileID: 64699781}
 --- !u!54 &1238758320
 Rigidbody:
   m_ObjectHideFlags: 0

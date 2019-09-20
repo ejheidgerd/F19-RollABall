@@ -1,7 +1,6 @@
-﻿using System.Collections;
+﻿using UnityEngine;
 using UnityEngine.UI;
-using System.Collections.Generic;
-using UnityEngine;
+using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
@@ -17,7 +16,7 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         count = 0;
-        SetCountText ();
+        SetCountText();
         winText.text = "";
     }
 
@@ -41,13 +40,12 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void SetCountText ()
+    void SetCountText()
     {
         countText.text = "Count: " + count.ToString();
         if (count >= 12)
         {
-            winText.text = "You win!";
+            winText.text = "You Win!";
         }
     }
 }
-
